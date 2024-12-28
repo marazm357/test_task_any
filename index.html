@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог товаров</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cont">
+    <div class="mobile-search">
+      <img src="/assets//Mobile Icon.png" width="20px" height="20px" alt="arrow">
+      <input type="text" placeholder="Запрос">
+      <img src="/assets/Subtract.png" width="20px" height="20px" alt="cancel">
+      <button>Найти</button>
+      <hr>
+    </div>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="/assets/Vector.png" alt="logo">
+          <p>Логотип</p>
+          <div class="cat-but">Каталог</div>
+        </div>
+        <nav>
+          <div class="search-container">
+            <img src="/assets/Frame.png" alt="lupa" width="24" height="24">
+            <input class="search-input" type="text" placeholder="Поиск по 100 000 товаров">
+          </div>
+          <div class="nav-menu">
+            <p href="#">Информация о компании</p>
+            <p href="#">Контакты</p>
+            <p href="#">Полезные ссылки</p>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main-container">
+      <aside class="sidebar">
+        <div class="categories">
+          <p>Название категории</p>
+            <ul>
+              <li class="category-elem"><span>Название категории</span><span class="span-color">1</span></li>
+              <li class="category-elem"><span>Название категории</span><span class="span-color">2</span></li>
+              <li class="category-elem active"><span>Название категории</span><span class="span-color">3</span></li>
+            </ul>
+        </div>
+          <div class="price-filter">
+            <h3>Цена</h3>
+              <div class="range-inputs">
+                <input type="text" placeholder="от 3 500 P">
+                <input type="text" placeholder="до 6 500 P">
+              </div>
+          </div>
+          <div class="brand-filter">
+            <h3>Бренд</h3>
+              <div class="mainSearch-container">
+                <img src="/assets/Frame.png" alt="lupa" width="24" height="24">
+                <input class="mainSearch-input" type="text" placeholder="Поиск">
+              </div>
+              <ul class="brand-checkboxes">
+                <li>
+                  <div class="custom-checkbox">
+                    <input type="checkbox" id="myCheckbox1" checked>
+                    <label for="myCheckbox1"></label>
+                  </div>
+                  <div class="attribute-elem">
+                    <span>Атрибут</span>
+                    <span class="span-color">1</span>
+                  </div>
+                  </li>
+                <li>
+                  <div class="custom-checkbox">
+                      <input type="checkbox" id="myCheckbox2">
+                      <label for="myCheckbox2"></label>
+                    </div>
+                    <div class="attribute-elem">
+                      <span>Атрибут</span>
+                      <span class="span-color">2</span>
+                    </div>
+                    
+                <li>
+                  <div class="custom-checkbox">
+                      <input type="checkbox" id="myCheckbox3">
+                      <label for="myCheckbox3"></label>
+                    </div>
+                    <div class="attribute-elem">
+                      <span>Атрибут</span>
+                      <span class="span-color">3</span>
+                    </div>
+                  </li>
+                <li>
+                  <div class="custom-checkbox">
+                      <input type="checkbox" id="myCheckbox4">
+                      <label for="myCheckbox4"></label>
+                    </div>
+                    <div class="attribute-elem">
+                      <span>Атрибут</span>
+                      <span class="span-color">4</span>
+                    </div>
+                  </li>
+                <li>
+                  <div class="custom-checkbox">
+                      <input type="checkbox" id="myCheckbox5">
+                      <label for="myCheckbox5"></label>
+                    </div>
+                    <div class="attribute-elem">
+                      <span>Атрибут</span>
+                      <span class="span-color">5</span>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+            <div class="size-filter">
+                <h3>Размер</h3>
+                  <ul class="size-checkboxes">
+                  <li>
+                    <div class="custom-checkbox">
+                      <input type="checkbox" id="myCheckbox6">
+                      <label for="myCheckbox6"></label>
+                    </div>
+                    <div class="attribute-elem">
+                      <span>Атрибут</span>
+                      <span class="span-color">6</span>
+                    </div></li>
+                  <li>
+                    <div class="custom-checkbox">
+                      <input type="checkbox" id="myCheckbox7">
+                      <label for="myCheckbox7"></label>
+                    </div>
+                    <div class="attribute-elem">
+                      <span>Атрибут</span>
+                      <span class="span-color">7</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="custom-checkbox">
+                      <input type="checkbox" id="myCheckbox8">
+                      <label for="myCheckbox8"></label>
+                    </div>
+                    <div class="attribute-elem">
+                      <span>Атрибут</span>
+                      <span class="span-color">8</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="custom-checkbox">
+                      <input type="checkbox" id="myCheckbox9">
+                      <label for="myCheckbox9"></label>
+                    </div>
+                    <div class="attribute-elem">
+                      <span>Атрибут</span>
+                      <span class="span-color">9</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="custom-checkbox">
+                      <input type="checkbox" id="myCheckbox10">
+                      <label for="myCheckbox10"></label>
+                    </div>
+                    <div class="attribute-elem">
+                      <span>Атрибут</span>
+                      <span class="span-color">10</span>
+                    </div>
+                </ul>
+            </div>
+      </aside>
+      <section class="products">
+        <div class="product-card">
+          <div class="product-header">
+            <div class="hit">
+              <span>Хит продаж</span>
+              <img src="/assets/flame.png" alt="flame">
+            </div>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-image"></div>
+          <p class="product-brand">Бренд</p>
+          <p class="product-description">Полное название товара в несколько строк для вида с обрывом в конце....</p>
+          <p class="product-price">5 990 P <span class="old-price">5 990 P</span></p>
+          <button class="buy-button">Купить</button>
+        </div>
+        <div class="product-card">
+          <div class="product-header">
+            <div class="hit">
+              <span>Хит продаж</span>
+              <img src="/assets/flame.png" alt="flame">
+            </div>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-image"></div>
+          <p class="product-brand">Бренд</p>
+          <p class="product-description">Полное название товара в несколько строк для вида с обрывом в конце....</p>
+          <p class="product-price">5 990 P <span class="old-price">5 990 P</span></p>
+          <button class="buy-button">Купить</button>
+        </div>
+        <div class="product-card">
+          <div class="product-header">
+            <div class="hit">
+              <span>Хит продаж</span>
+              <img src="/assets/flame.png" alt="flame">
+            </div>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-image"></div>
+          <p class="product-brand">Бренд</p>
+          <p class="product-description">Полное название товара в несколько строк для вида с обрывом в конце....</p>
+          <p class="product-price">5 990 P <span class="old-price">5 990 P</span></p>
+          <button class="notify-button">Сообщить о поступлении</button>
+        </div>
+        <div class="product-card">
+          <div class="product-header">
+            <div class="hit">
+              <span>Хит продаж</span>
+              <img src="/assets/flame.png" alt="flame">
+            </div>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-image"></div>
+          <p class="product-brand">Бренд</p>
+          <p class="product-description">Полное название товара в несколько строк для вида с обрывом в конце....</p>
+          <p class="product-price">5 990 P <span class="old-price">5 990 P</span></p>
+          <button class="buy-button">Купить</button>
+        </div>
+        <div class="product-card">
+          <div class="product-header">
+            <div class="hit">
+              <span>Хит продаж</span>
+              <img src="/assets/flame.png" alt="flame">
+            </div>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-image"></div>
+          <p class="product-brand">Бренд</p>
+          <p class="product-description">Полное название товара в несколько строк для вида с обрывом в конце....</p>
+          <p class="product-price">5 990 P <span class="old-price">5 990 P</span></p>
+          <button class="buy-button">Купить</button>
+        </div>
+        <div class="product-card">
+          <div class="product-header">
+            <div class="hit">
+              <span>Хит продаж</span>
+              <img src="/assets/flame.png" alt="flame">
+            </div>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-image"></div>
+          <p class="product-brand">Бренд</p>
+          <p class="product-description">Полное название товара в несколько строк для вида с обрывом в конце....</p>
+          <p class="product-price">5 990 P <span class="old-price">5 990 P</span></p>
+          <button class="buy-button">Купить</button>
+        </div>
+        <div class="product-card">
+          <div class="product-header">
+            <div class="hit">
+              <span>Хит продаж</span>
+              <img src="/assets/flame.png" alt="flame">
+            </div>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-image"></div>
+          <p class="product-brand">Бренд</p>
+          <p class="product-description">Полное название товара в несколько строк для вида с обрывом в конце....</p>
+          <p class="product-price">5 990 P <span class="old-price">5 990 P</span></p>
+          <button class="buy-button">Купить</button>
+        </div>
+        <div class="product-card">
+          <div class="product-header">
+            <div class="hit">
+              <span>Хит продаж</span>
+              <img src="/assets/flame.png" alt="flame">
+            </div>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-image"></div>
+          <p class="product-brand">Бренд</p>
+          <p class="product-description">Полное название товара в несколько строк для вида с обрывом в конце....</p>
+          <p class="product-price">5 990 P <span class="old-price">5 990 P</span></p>
+          <button class="buy-button">Купить</button>
+        </div>
+        <div class="product-card">
+          <div class="product-header">
+            <div class="hit">
+              <span>Хит продаж</span>
+              <img src="/assets/flame.png" alt="flame">
+            </div>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-image"></div>
+          <p class="product-brand">Бренд</p>
+          <p class="product-description">Полное название товара в несколько строк для вида с обрывом в конце....</p>
+          <p class="product-price">5 990 P <span class="old-price">5 990 P</span></p>
+          <button class="buy-button">Купить</button>
+        </div>
+        <div class="product-card">
+          <div class="product-header">
+            <div class="hit">
+              <span>Хит продаж</span>
+              <img src="/assets/flame.png" alt="flame">
+            </div>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-image"></div>
+          <p class="product-brand">Бренд</p>
+          <p class="product-description">Полное название товара в несколько строк для вида с обрывом в конце....</p>
+          <p class="product-price">5 990 P <span class="old-price">5 990 P</span></p>
+          <button class="buy-button">Купить</button>
+        </div>
+        <div class="product-card">
+          <div class="product-header">
+            <div class="hit">
+              <span>Хит продаж</span>
+              <img src="/assets/flame.png" alt="flame">
+            </div>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-image"></div>
+          <p class="product-brand">Бренд</p>
+          <p class="product-description">Полное название товара в несколько строк для вида с обрывом в конце....</p>
+          <p class="product-price">5 990 P <span class="old-price">5 990 P</span></p>
+          <button class="notify-button">Сообщить о поступлении</button>
+        </div>
+        <div class="product-card">
+          <div class="product-header">
+            <div class="hit">
+              <span>Хит продаж</span>
+              <img src="/assets/flame.png" alt="flame">
+            </div>
+            <span class="discount">25%</span>
+          </div>
+          <div class="product-image"></div>
+          <p class="product-brand">Бренд</p>
+          <p class="product-description">Полное название товара в несколько строк для вида с обрывом в конце....</p>
+          <p class="product-price">5 990 P <span class="old-price">5 990 P</span></p>
+          <button class="buy-button">Купить</button>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
+</body>
+</html>
